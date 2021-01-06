@@ -1,0 +1,61 @@
+
+html, body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.contanier{
+    /**
+     * Lo minimo y necesario para tener un CSS Grid
+     * */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 200px 200px;
+
+    /**
+     * Puedes utilizar cualquier unidad de CSS y combinarlas
+     */ 
+
+
+    /** 
+     * Simplificando la linea anterior
+     * grid-template: row / columnas;
+     * */
+    
+    /**
+     * La unidad mas frecuente utilizada en este 
+     * caso son las fracciones
+     */
+
+     /**
+      * Si todas las files o columnas tiene el mismo tamaño,
+      * podemos utilizar la funcion repeat(cantidad, tamaño)
+      */ 
+
+    /**
+     * Podemos alinear la grilla respecto a su contenerdor utilizando
+     * JUSTIFY-CONTENT & ALIGN-CONTENT, pero el elemnto grid respecto
+     * a su padre debe ser mas chico.
+     */ 
+
+     /**
+      * Podemos alinear el contenido de todas las celdas de la grilla
+      * utilizando JUSTIFY-ITEMS & ALGING-ITEMS.
+      */ 
+
+    /**
+     *  Podemos definir un templeate definiendo un area.
+     */
+
+     /**
+      * Existe una mejor manera
+      */ 
+    
+}   
+
+/**
+ * Podemos alinear de forma particular un elemento aplicando una clase
+ * especial donde especificamos valores para JUSTIFY-SELF & ALGIN-SELF.
+ */
+
